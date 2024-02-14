@@ -1,0 +1,20 @@
+<!--navbar-->
+<div>
+    <nav class="navBar" *ngIf="islogged">
+        <ul>
+            <li *ngIf="currUser?.type == 'admin'"><a routerLink="home">Dashboard</a></li>
+            <li><a routerLink="billing">Billing</a></li>
+            <li *ngIf="currUser?.type == 'admin'"><a routerLink="food">Food</a></li>
+            <li><button class="logout" (click)="logout()">Logout</button></li>
+        </ul>
+    </nav>
+    </div>
+    <br><br>
+    <!-- food-table -->
+    <router-outlet></router-outlet>
+      <br><br>
+      <!--Footer-->
+      <footer class="footer">
+        <p>&copy;2000-2024</p>
+      </footer>
+      

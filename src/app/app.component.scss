@@ -1,0 +1,115 @@
+
+.navBar {
+    margin-top: auto;
+    height: 100vh;
+    width: 180px;
+    background-color: lightgreen;
+    position: absolute;
+    padding-bottom: 185px;
+    text-align: center;
+    font-family: ui-rounded;
+    font-weight: bold;
+  }
+
+.navBar ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin-left: -38px;
+}
+
+  .navBar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .navBar a:hover {
+    background-color: white;
+  }
+
+  .logout{
+    margin-top: 260px;
+    color: black;
+    background-color: white;
+    border: hidden black;
+    font-size: x-large;
+    font-family: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 450px;
+    margin-left: 42px;
+  }
+
+  .logout:hover{
+    background-color: #555;
+  }
+
+
+  /* food-table.component.css */
+.newBill{
+
+  color: black;
+  background-color: sandybrown;
+  border: hidden black;
+  font-size: normal;
+  font-family: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.newBill :hover{
+  background-color: #555;
+}
+
+
+.table-container {
+  margin: 20px;
+  margin-left: 200px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: sandybrown;
+}
+
+tr:hover {
+  background-color:seagreen;
+}
+
+td span {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #3423;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Additional hover effect on the quantity span */
+td:hover span {
+  background-color: #45a049;
+}
+
+.footer {
+  margin-left: 180px;
+  margin-right: 120px;
+  margin-top: 170px;
+  text-align: center;
+  font-family: serif;
+  font-weight: bolder;
+}

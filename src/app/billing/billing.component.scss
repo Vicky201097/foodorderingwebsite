@@ -1,0 +1,142 @@
+
+.navBar {
+    margin-top: auto;
+    height: 70vh;
+    width: 180px;
+    background-color: sandybrown;
+    position: absolute;
+    padding-bottom: 185px;
+    text-align: center;
+    font-family: ui-rounded;
+    font-weight: bold;
+  }
+
+.navBar ul{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin-left: -38px;
+}
+
+  .navBar a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .navBar a:hover {
+    background-color: #555;
+  }
+
+  .logout{
+    margin-top: 260px;
+    color: black;
+    background-color: white;
+    border: hidden black;
+    font-size: x-large;
+    font-family: auto;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 450px;
+    margin-left: 42px;
+  }
+
+  .logout:hover{
+    background-color: #555;
+  }
+
+.billForm{
+    margin: 20px;
+    margin-left: 250px;
+}
+.qty{
+    margin-left:200px;
+}
+.add{
+    margin-left: 325px;
+}
+.details{
+  margin-left: 1205px;
+
+}
+
+.add,.details,.bill,.cancel{
+  color: black;
+  background-color: lightgreen;
+  border: hidden black;
+  font-size: x-large;
+  font-family: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.total{
+  font-size: x-large;
+  font-family: auto;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right:600px;
+}
+.total,.bill{
+  margin-left:620px;
+}
+.cancel{
+  margin-left:120px;
+}
+
+.add:hover,.details:hover,.bill:hover,.cancel:hover{
+  background-color: #555;
+
+}
+
+.food,.qty{
+  font-size: medium;
+  font-family: auto;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.table-container {
+    margin: 20px;
+    margin-left: 350px;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  th {
+    background-color: lightgreen;
+  }
+  
+  tr:hover {
+    background-color:white;
+  }
+  
+  td span {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #3423;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Additional hover effect on the quantity span */
+  td:hover span {
+    background-color: #45a049;
+  }
+
+

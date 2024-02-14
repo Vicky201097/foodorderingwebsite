@@ -1,0 +1,56 @@
+marquee {
+    direction: ltr;
+    margin: 50px;
+    font-family: times-new-roman;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.login {
+    margin-left: 400px;
+    background-color: sandybrown;
+    border-collapse: collapse;
+    border-radius: 20px;
+    margin-right: 400px;
+    text-align: center;
+    padding: 50px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: lightgreen;
+    color: black;
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.btn-primary:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+.submit {
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 5px 40px 5px 40px;
+    border: 2px hidden black;
+    border-radius: 50px;
+    font-size: medium;
+    font-family: serif;
+    background: aliceblue;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.submit:hover {
+    background-color: darkslategrey;
+}
+.textbox:hover {
+    border: 2px hidden tan;
+    border-radius: transparent;
+    background-color: darkslategray;
+}

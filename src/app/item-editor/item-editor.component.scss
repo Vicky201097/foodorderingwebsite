@@ -1,0 +1,28 @@
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: sandybrown;
+  }
+  
+  tr:hover {
+    background-color:seagreen;
+  }
+  
+  td span {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #3423;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Additional hover effect on the quantity span */
+  td:hover span {
+    background-color: #45a049;
+  }

@@ -1,0 +1,26 @@
+<p>billvalue works!</p>
+
+<div class="cart-container">
+    <h2 style="color: black; text-align: center; font-family: 'Times New Roman', Times, serif; font-weight: bold;">CART</h2>
+    <div *ngIf="tableData.length > 0; else emptyCart">
+      <div class="cart-item" *ngFor="let item of tableData">
+        <div class="item-details">
+          <h4>{{ item.name }}</h4>
+          <p>PRICE: INR {{ item.rate }}</p>
+        </div>
+        <div class="quantity-control">
+          <span>QUANTITY: {{ item.Quantity }}</span>
+        </div>
+      </div>
+      <div class="cart-total">
+        <p>TOTAL: INR {{ totalAmount + " Rs" }}</p>
+      </div>
+    </div>
+    <ng-template #emptyCart>
+      <p style="color: black; font-weight: bold; text-align: center; font-family: 'Times New Roman', Times, serif;">Your CART is empty.</p>
+    </ng-template>
+  </div>
+  <br>
+  <footer class="footer">
+    <p>&copy;2000-2024</p>
+  </footer>

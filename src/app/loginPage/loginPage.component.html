@@ -1,0 +1,29 @@
+
+<div class="container">
+    
+  <h4 style="display: flex; align-items: center; justify-content: center; color: black; font-family: 'Times New Roman', Times, serif; font-weight: bold;">Enter Login Credentials</h4>
+  <form class="login" [formGroup]="login" (ngSubmit)="onSubmit()" style="background-color: lightgreen;">
+
+      <label for="userName">Username:</label>
+      <input type="text" class="form-control" id="userName" name="userName" formControlName="userName" autocomplete="off">
+         <br><br>
+      <div *ngIf="login?.get('userName')?.hasError('') && login?.get('userName')?.touched">
+          username is required.</div>
+          <div *ngIf="login?.get('userName')?.hasError('userName') && login?.get('userName')?.touched">Please Enter a valid Username</div>
+          <label for="password">Password:</label>
+          <input type="password" class="form-control" id="password" name="password" minlength="8" maxlength="15"
+              formControlName="password">
+          <div *ngIf="login?.get('password')?.hasError('') && login?.get('password')?.touched">
+              Password is required.
+          </div>
+          <div *ngIf="login?.get('password')?.hasError('') && login?.get('password')?.touched">
+              Password must be at least 8 characters long.
+          </div><div *ngIf="!valid">
+              Invalid Username or Password
+          </div>
+                <br><br>
+          <button class="btn-primary" type="submit"  >Sign In</button>
+
+  </form>
+</div>
+

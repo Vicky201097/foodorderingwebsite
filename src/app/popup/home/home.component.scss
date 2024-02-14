@@ -1,0 +1,57 @@
+.table-container {
+    margin: 20px;
+    margin-left: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,td {
+    border: 1px solid gray;
+    padding: 8px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+th {
+    background-color: lightgreen;
+}
+
+tr:hover {
+    background-color: white;
+}
+
+td span {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #3423;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Additional hover effect on the quantity span */
+td:hover span {
+    background-color: #45a049;
+}
+
+.newBill {
+    color: black;
+    background-color: lightgreen;
+    border: hidden black;
+    font-size: large;
+    font-family: auto;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.newBill:hover{
+    background-color:white;
+}
+
+
+

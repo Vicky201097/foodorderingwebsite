@@ -1,0 +1,21 @@
+<div class="table-container">
+    <button class="newBill" (click)="navigate()">ADD NEW BILL</button>
+    <h2 style="margin-left: 420px;">TODAY'S SPECIAL</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Food Name</th>
+          <th>Amount</th>
+          <th>Quantity in Hand</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let foodItem of foodData">
+          <td>{{ foodItem.name }}</td>
+          <td>{{ foodItem.amount + ' Rps' }}</td>
+          <td>{{ foodItem.quantityInHand }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
